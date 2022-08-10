@@ -1,2 +1,11 @@
-= {Text.Proper("hello world") & Text.Proper("  My name is Suwat") & Text.Lower("  I studying in ") & Text.Upper("  Phetchaburi Rajabhat University"), Text.Proper("New Lines"),"Test3","Test4","สุวัฒน์","วิทยา"}
-
+let
+    Source = {Text.Proper("hello world") & Text.Proper("  My name is Suwat") & Text.Lower("  I studying in ") & Text.Upper("  Phetchaburi Rajabhat University"), Text.Proper("New Lines"),"Test3","Test4","สุวัฒน์","วิทยา"},
+    AddNumber = (number1, number2) => (number1 + number2) / 2,
+    Step1 = AddNumber(10,10),
+    FindMax = (n1, n2) => List.Max({n1,n2}),
+    Step3 = FindMax(10,5),
+    Students = #table({"รหัส","ชื่อ นามสกุล","คะแนนสอบ" },{ {"634272001","Sudarat",80},{"634272002","Vitcha",90} }),
+    #"Changed Type" = Table.TransformColumnTypes(Students,{{"ชื่อ นามสกุล", type text}, {"รหัส", type text}, {"คะแนนสอบ", Int64.Type}}),
+    Step5 = FindMax(10,5)
+in
+    Step5
