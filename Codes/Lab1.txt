@@ -1,0 +1,2 @@
+= {Text.Proper("hello world") & Text.Proper("  My name is Suwat") & Text.Lower("  I studying in ") & Text.Upper("  Phetchaburi Rajabhat University"), Text.Proper("New Lines"),"Test3","Test4","สุวัฒน์","วิทยา"}
+
