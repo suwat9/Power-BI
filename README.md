@@ -8,7 +8,7 @@ Power BI
                 Table2[Column1] In {"Sneakers","Boots","Sandals","Slippers"},"Shoes",
                 "Other"
                 ) 
-2. การคำนวณแบบมีเงื่อนไข ด้วยคำสั่ง Calculate:
+2. การคำนวณแบบมีเงื่อนไข ด้วยคำสั่ง Calculate: (Sample Model)[https://github.com/microsoft/powerbi-desktop-samples/tree/main/DAX]
 - CALCULATE(<expression>[, <filter1> [, <filter2> [, …]]])
   โดย 
   expression	คือนิพจน์ที่ต้องการหาค่า 
